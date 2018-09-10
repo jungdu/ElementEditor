@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  padding: 20px;
+}
+.blank_cursor{
+  position:absolute;
+  transform: translateX(-50%);
+  visibility: visible;
+}
+#ptag{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#clonetag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+.text_editor{
+  position:relative;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
