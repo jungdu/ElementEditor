@@ -5,7 +5,7 @@
 body{
   padding: 20px;
 }
-.blank_cursor{
+#p_cursor{
   position:absolute;
   transform: translateX(-50%);
   visibility: visible;
@@ -15,7 +15,11 @@ body{
   top: 0;
   left: 0;
 }
-#clonetag{
+.p_cont{
+  position: relative;
+  margin-bottom: 20px;
+}
+.clonetag{
   position: absolute;
   top: 0;
   left: 0;
